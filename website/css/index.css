@@ -53,7 +53,7 @@ html {
 }
 
 .container {
-	max-width: 800px;
+	max-width: 1700px;
 	margin: 0 auto;
 	font-size: 2rem;
 }
@@ -65,3 +65,107 @@ h1 {
 h1,h2,h3,h4 {
 	margin: 20px 0;
 }
+
+/* --------------------------- end of standard CSS --------------------------- */
+
+/* ------------------------- beginning of desktop CSS ---------------------- */
+
+body {
+    background-color: #F2F1EF;
+}
+.mainHeader {
+    margin: 0 auto;
+    background: #d8cfd0; /* Old browsers */
+    background: -moz-linear-gradient(left,  #d8cfd0 0%, #d8cfd0 39%, #697184 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #d8cfd0 0%,#d8cfd0 39%,#697184 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #d8cfd0 0%,#d8cfd0 39%,#697184 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8cfd0', endColorstr='#697184',GradientType=1 ); /* IE6-9 */
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    max-height: 100px;
+}
+.topLeftBar {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    flex-wrap: wrap;
+}
+.topLeftBar h3 {
+    padding-top: 1em;
+    font-size: 2em;
+}
+.topLeftBar h3 a {
+    color: #697184;
+    text-decoration: none;
+}
+.topRightBar {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 10%;
+}
+.topRightBar h3 {
+    padding-top: 1em;
+    font-size: 2em;
+}
+.topRightBar h3 a {
+    color: #d8cfd0;
+    text-decoration: none;
+}
+/*
+#cozyName {
+    color: black;
+      -webkit-text-fill-color: #f2F1Ef;
+      -webkit-text-stroke-width: .3px;
+      -webkit-text-stroke-color: black;
+} */
+#hero {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#new {
+    color: #697184;
+    margin-top: 3em;
+}
+.books {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.txt {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    text-align: center;
+    color: #F2F1EF;
+    visibility: hidden;
+}
+
+.boxContainer {
+    height: 200px;
+    width: 167px;
+    position: relative;
+}
+
+div.coverColor {
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+a.boxContainer:hover div.coverColor {
+    visibility: visible;
+    opacity: .25;
+}
+a.boxContainer:hover div.txt {
+    visibility: visible;
+}
+
