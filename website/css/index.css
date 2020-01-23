@@ -123,7 +123,7 @@ body {
 }
 #new {
     color: #697184;
-    margin: 1.5em 0;
+    margin: 2% 0;
     margin-left: 1.5%;
     font-size: 1.4em;
 }
@@ -179,7 +179,7 @@ a.boxContainer:hover div.txt {
 }
 
 .blogPosts {
-    margin-top: 1.5em;
+    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
