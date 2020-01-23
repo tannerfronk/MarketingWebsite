@@ -88,7 +88,7 @@ body {
     max-height: 100px;
 }
 .topLeftBar {
-    margin-left: 5%;
+    margin-left: 5.5%;
     display: flex;
     justify-content: space-between;
     width: 700px;
@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 200px;
-    margin-right: 5%;
+    margin-right: 5.5%;
 }
 .topRightBar h3 {
     padding-top: 1em;
@@ -124,7 +124,7 @@ body {
 #new {
     color: #697184;
     margin-left: 1.5%;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 .books {
     display: flex;

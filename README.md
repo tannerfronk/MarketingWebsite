@@ -48,4 +48,8 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
+<<<<<<< HEAD
 The URL you used for layout is: https://www.blizzard.com/en-us/
+=======
+The URL you used for layout is: https://www.blizzard.com/en-us/
+>>>>>>> 31ad3e410ee26cf0a3c0cd236db7b45bcc62741e
