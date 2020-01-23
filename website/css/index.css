@@ -88,7 +88,7 @@ body {
     max-height: 100px;
 }
 .topLeftBar {
-    margin-left: 9.8%;
+    margin-left: 5%;
     display: flex;
     justify-content: space-between;
     width: 700px;
@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 200px;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .topRightBar h3 {
     padding-top: 1em;
