@@ -257,6 +257,31 @@ footer {
     margin-top: 2em;
     font-size: 12px;
 }
+#title {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align:center;
+    font-size:2em;
+    color: #413F3D;
+}
+#title2 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align:center;
+    font-size:2em;
+    color: #F2F1EF;
+}
+#title3 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align:center;
+    font-size:2em;
+    color: #697184;
+}
+
 /* --------------------------- end of desktop CSS --------------------------- */
 
 
