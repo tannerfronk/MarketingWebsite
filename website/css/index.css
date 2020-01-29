@@ -55,14 +55,9 @@ html {
 .container {
 	max-width: 1700px;
 	margin: 0 auto;
-	font-size: 2rem;
 }
 
-h1 {
-	font-size: 4rem;
-}
-
-h1,h2,h3,h4 {
+h1,h2,h3 {
 	margin: 20px 0;
 }
 
@@ -96,7 +91,7 @@ body {
 }
 .topLeftBar h3 {
     padding-top: 1em;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .topLeftBar h3 a {
     color: #697184;
@@ -110,7 +105,7 @@ body {
 }
 .topRightBar h3 {
     padding-top: 1em;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .topRightBar h3 a {
     color: #d8cfd0;
@@ -123,14 +118,15 @@ body {
 }
 #new {
     color: #697184;
-    margin: 2% 0;
-    margin-left: 1.5%;
-    font-size: 1.4em;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 3rem;
 }
 .books {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 3%;
 }
 
 div.txt {
@@ -140,6 +136,7 @@ div.txt {
     text-align: center;
     color: #F2F1EF;
     visibility: hidden;
+    font-size: 2rem;
 }
 
 .boxContainer {
@@ -172,8 +169,8 @@ a.boxContainer:hover div.txt {
     color: #697184;
 }
 #blog {
-    margin-left: 1.5%;
-    font-size: 1.4em;
+    margin-bottom: 0;
+    font-size: 3rem;
     color: #697184;
     margin-top: 0;
 }
@@ -181,7 +178,7 @@ a.boxContainer:hover div.txt {
 .blogPosts {
     margin-top: 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -211,7 +208,7 @@ div.blogTxt {
     top: 175px;
     width: 100%;
     text-align: center;
-    font-size:2em;
+    font-size:2.5rem;
     color: #F2F1EF;
     visibility: hidden;
 }
@@ -261,16 +258,16 @@ footer {
     position: absolute;
     top: 50px;
     width: 100%;
-    text-align:center;
-    font-size:2em;
+    text-align: center;
+    font-size: 3rem;
     color: #413F3D;
 }
 #title2 {
     position: absolute;
     top: 50px;
     width: 100%;
-    text-align:center;
-    font-size:2em;
+    text-align: center;
+    font-size: 3rem;
     color: #F2F1EF;
 }
 #title3 {
@@ -278,8 +275,37 @@ footer {
     top: 50px;
     width: 100%;
     text-align:center;
-    font-size:2em;
+    font-size: 3rem;
     color: #697184;
+}
+#spacer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    padding: 1% 30%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+.bottomHeading {
+    display: flex;
+}
+.bottomHeading a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    margin-left: 2rem;
+}
+.topHeading {
+    display: flex;
+}
+.topHeading a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 9.2rem;
+    margin-left: 2rem;
 }
 
 /* --------------------------- end of desktop CSS --------------------------- */
