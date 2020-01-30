@@ -64,7 +64,6 @@ h1,h2,h3 {
 /* --------------------------- end of standard CSS --------------------------- */
 
 /* ------------------------- beginning of desktop CSS ---------------------- */
-
 body {
     background-color: #F2F1EF;
 }
@@ -103,6 +102,7 @@ body {
     justify-content: space-between;
     width: 200px;
     margin-right: 5.5%;
+    margin-left: 2%;
 }
 .topRightBar h3 {
     padding-top: .3em;
@@ -116,6 +116,7 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 100%;
+    margin-top: 0;
 }
 #new {
     color: #697184;
@@ -170,7 +171,7 @@ a.boxContainer:hover div.txt {
     color: #697184;
 }
 #blog {
-    margin-bottom: 0;
+    margin-bottom: 3%;
     font-size: 3rem;
     color: #697184;
     margin-top: 0;
@@ -284,7 +285,7 @@ footer {
     display: flex;
     justify-content: space-around;
     font-size: 2.5rem;
-    padding: 1% 30%;
+    padding: 1% 20%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-bottom: 4%;
@@ -318,12 +319,15 @@ footer {
 .goAway {
   visibility: visible;  
 }
+#heroPhone {
+    margin-top: 0;
+}
 
 /* --------------------------- end of desktop CSS --------------------------- */
 
 
 /* ------------------------ beginning of mobile CSS ------------------------- */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 699px){
     .container {
         max-width: 100%;
     }
@@ -332,8 +336,7 @@ footer {
         flex-direction: column;
     }
     #logo {
-        margin-left: 2%;
-        margin-bottom: 3rem;
+        margin-left: 35%;
     }
     .topLeftBar {
         margin: 0 0;
@@ -344,7 +347,7 @@ footer {
     }
     .topLeftBar h3 {/* onclick display: none */
         margin-left: 2%;
-        padding-top: 0;
+        padding-top: ;
         margin-bottom: 0;
     }
     .topRightBar {
@@ -354,27 +357,37 @@ footer {
         margin-right: 0;
     }
     .topRightBar h3 {/* onclick display: none */
-        margin-left: 4%;
         padding-top: 0;
         margin-bottom: 0;
-    }
-    #newRelease {
-        margin-bottom: -2em;
+        margin-right: 1%;
     }
     #hamburger {
         display: block;
         margin-left: 1%;
+        margin-top: -3.4rem;
     }
     #hamburger img {
         width: 4rem;
     }
-    #goAway{
-        
-    }
-    #goAwayPlease {
-        
-    }
     #heroPhone { /* onclick change to 5rem */
-        margin-top: 38rem;
+        margin-top: 32rem;
+    }
+    #spacer {
+        padding: 1% 0rem;
+    }
+    .blogPosts {
+        display: flex;
+        justify-content: center;
+        margin: 0 2%;
+    }
+    #blog {
+        margin-bottom: 5%;
+    }
+    #new {
+        margin-left: 2%;
+    }
+    .books {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
