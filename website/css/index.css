@@ -107,6 +107,7 @@ body {
 .topRightBar h3 {
     padding-top: .3em;
     font-size: 2rem;
+    flex-wrap: nowrap;
 }
 .topRightBar h3 a {
     color: #d8cfd0;
@@ -373,7 +374,8 @@ footer {
         margin-top: 31rem;
     }
     #spacer {
-        padding: 1% 0rem;
+        padding: 3% 0;
+        margin: 10% 0;
     }
     .blogPosts {
         display: flex;
@@ -389,5 +391,9 @@ footer {
     .books {
         margin-left: 2%;
         margin-right: 2%;
+        justify-content: space-around;
+    }
+    #footArea {
+        width: 350px;
     }
 }
