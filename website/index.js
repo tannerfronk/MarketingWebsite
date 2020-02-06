@@ -29,5 +29,8 @@ function fixWindow(){
         }
     } else if(window.innerWidth <= 699){
         heroPhone.style.marginTop = "31rem";
+        for(let i=0; i<menuText.length; i++){
+            menuText[i].style.visibility = "visible";
+        }
     }
 }
